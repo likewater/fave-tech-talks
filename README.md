@@ -1,7 +1,22 @@
 # fave-tech-talk
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This README outlines the details of collaborating on this Ember application: fave.tech(talk)
+
+## Planning
+
+Goal: Create a site where users can post their favorite tech talks, speeches, demos, and lectures to generate healthy discussion regarding the topic.
+
+1. Specs
+  * upon click, show detail of view.
+  * upon click, open edit field, edit and save
+  * upon click, destroy (are you sure?)
+  * upon click, open up add field, add new post, save
+
+2. Integration
+  * Initial routes or index page mapped out
+  * Templates and their components created sequentially
+  * Follow the data, not the structure when building
+  *
 
 ## Prerequisites
 
