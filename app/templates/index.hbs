@@ -1,3 +1,11 @@
 {{#link-to 'about'}}About fave.tech(talk){{/link-to}}
 
 <h1>fave.tech(talk)</h1>
+
+<p>Feeds</p>
+
+<ul>
+  {{#each model as |feed|}}
+    {{feed-tile feed=feed}}
+  {{/each}}
+</ul>
