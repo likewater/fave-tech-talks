@@ -14,6 +14,17 @@ body{
   color: #3B3738;
 }
 
+.jumbotron{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#jumbotronLogo{
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+}
+
 h1{
   color: #C63D0F;
 }
