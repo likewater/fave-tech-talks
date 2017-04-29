@@ -2,8 +2,14 @@
   <header class= "jumbotron">
     <img id="jumbotronLogo" src="/assets/images/fave-tech-talk-logo-two.png" alt="Logo">
   </header>
+  <nav id="topNavBar" class="navbar navbar-inverse">
+    <p class="navbar-text">{{#link-to 'about'}}About{{/link-to}}</p>
+    <p class="navbar-text">FAQ</p>
+    <p class="navbar-text">Contact Us</p>
+  </nav>
     {{outlet}}
-  <footer>
-    {{#link-to 'about'}}Our representatives would love to help!{{/link-to}}
-  </footer>
+
+    <!-- <nav id="bottomNavBar" class="navbar navbar-inverse">
+    </nav> -->
+
 </div>

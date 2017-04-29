@@ -1,11 +1,12 @@
-{{#link-to 'about'}}About fave.tech(talk){{/link-to}}
-
+<br>
 {{new-feed saveFeed="saveFeed"}}
-
-<h2>Feeds</h2>
+<h2>All Talks</h2>
+<hr>
 
 <ul>
   {{#each model as |feed|}}
     {{feed-tile feed=feed update="update" destroyFeed="destroyFeed"}}
   {{/each}}
+  <nav id="bottomNavBar" class="navbar navbar-inverse">
+  </nav>
 </ul>

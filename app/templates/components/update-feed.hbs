@@ -30,9 +30,9 @@
         <label for="content">Text</label>
         {{input value=content id="content" placeholder=feed.content}}
       </div>
-      <button {{action 'update' feed}}>Save</button>
+      <button {{action 'update' feed}}>Save Talk</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateFeedForm'}}>Update</button>
+  <button {{action 'updateFeedForm'}}>Update Talk</button>
 {{/if}}
