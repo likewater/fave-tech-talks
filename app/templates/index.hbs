@@ -2,10 +2,10 @@
 
 <h1>fave.tech(talk)</h1>
 
-<p>Feeds</p>
+<h2>Feeds</h2>
 
 <ul>
   {{#each model as |feed|}}
-    {{feed-tile feed=feed}}
+    {{feed-tile feed=feed destroyFeed="destroyFeed"}}
   {{/each}}
 </ul>

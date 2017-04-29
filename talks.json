@@ -3,6 +3,7 @@
     "author": "Rich Hickey",
     "subject": "Clojure",
     "url": "http://www.infoq.com/presentations/Simple-Made-Easy",
+    "imageUrl":"http://www.aaen.com.au/wp-content/uploads/2014/01/tech-talk.jpg",
     "poster": "Blake Womack",
     "content": "Rich Hickey emphasizes simplicity’s virtues over easiness’, showing that while many choose easiness they may end up with complexity, and the better way is to choose easiness along the simplicity path."
   }, {
@@ -10,6 +11,7 @@
     "author": "Bret Victor",
     "subject": "User Interface",
     "url": "https://vimeo.com/36579366",
+    "imageUrl":"http://www.aaen.com.au/wp-content/uploads/2014/01/tech-talk.jpg",
     "poster": "Blake Womack",
     "content": "Bret Victor’s talk Inventing on Principle will make all of your programming languages and tools feel obsolete. He presents a new way to write code: a user interface that makes the computer do the tedious work so that you can experiment with and react to your code instead of trying to simulate it in your head."
   }, {
@@ -17,16 +19,17 @@
     "author": "Douglas Engelbart",
     "subject": "The Future of Programming from 1968",
     "url": "https://www.youtube.com/watch?v=yJDv-zdhzMY",
+    "imageUrl":"http://www.aaen.com.au/wp-content/uploads/2014/01/tech-talk.jpg",
     "poster": "Blake Womack",
     "content": "The Mother of All Demos is a name given retrospectively to Douglas Engelbart's December 9, 1968, demonstration of experimental computer technologies that are now commonplace. The live demonstration featured the introduction of the computer mouse, video conferencing, teleconferencing, hypertext, word processing, hypermedia, object addressing and dynamic file linking, bootstrapping, and a collaborative real-time editor."
   }],
     "responses": [{
       "responder": "Andrea Synopsis",
-      "response_title": "Nothing is easy",
+      "responseTitle": "Nothing is easy",
       "content": "Like it!"
   }, {
       "responder": "Bill Blahman",
-      "response_title": "Gave me the blues",
+      "responseTitle": "Gave me the blues",
       "content": "Now I am really depressed."
   }]
 }

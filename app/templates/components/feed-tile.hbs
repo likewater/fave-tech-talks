@@ -1,8 +1,11 @@
-<li>
-  <p>{{feed.title}}</p><br>
-  <p>{{feed.url}}</p><br>
-  <p>Original content author: {{feed.author}}</p><br>
-  <p>Posted by: {{feed.poster}}</p><br>
-  <p>Comments: {{feed.content}}</p><br>
-  <p>Subject: {{feed.subject}}</p>
+<li id="feedList">
+  <h2><b>{{feed.title}}</b></h2>
+  <p><img src="{{feed.imageUrl}}" alt="Tech Talk Logo"></p>
+  <p><b>Posted Media: </b><a href={{feed.url}}>Click to view video or media</a></p>
+  <p><b>Original content author:</b> {{feed.author}}</p>
+  <p><b>Posted by:</b> {{feed.poster}}</p>
+  <p><b>Comments:</b> {{feed.content}}</p>
+  <p><b>Subject:</b> {{feed.subject}}</p>
+  <button{{action 'delete' feed}}>Delete Feed</button>
+  <hr>
 </li>
