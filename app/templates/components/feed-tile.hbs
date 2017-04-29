@@ -6,6 +6,7 @@
   <p><b>Posted by:</b> {{feed.poster}}</p>
   <p><b>Comments:</b> {{feed.content}}</p>
   <p><b>Subject:</b> {{feed.subject}}</p>
+  {{update-feed feed=feed update="update"}}
   <button{{action 'delete' feed}}>Delete Feed</button>
   <hr>
 </li>

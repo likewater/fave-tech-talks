@@ -1,0 +1,38 @@
+{{#if updateFeedForm}}
+  <h4>Update {{feed.poster}}'s {{feed.title}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title" placeholder=feed.title}}
+      </div>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=feed.author}}
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        {{input value=subject id="subject" placeholder=feed.subject}}
+      </div>
+      <div class="form-group">
+        <label for="url">Talk Media URL</label>
+        {{input value=url id="url" placeholder=feed.url}}
+      </div>
+      <div class="form-group">
+        <label for="imageUrl">Image URL</label>
+        {{input value=imageUrl id="imageUrl" placeholder=feed.imageUrl}}
+      </div>
+      <div class="form-group">
+        <label for="poster">Your Name</label>
+        {{input value=poster id="poster" placeholder=feed.poster}}
+      </div>
+      <div class="form-group">
+        <label for="content">Text</label>
+        {{input value=content id="content" placeholder=feed.content}}
+      </div>
+      <button {{action 'update' feed}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateFeedForm'}}>Update</button>
+{{/if}}

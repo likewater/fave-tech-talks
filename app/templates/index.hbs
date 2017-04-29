@@ -8,6 +8,6 @@
 
 <ul>
   {{#each model as |feed|}}
-    {{feed-tile feed=feed destroyFeed="destroyFeed"}}
+    {{feed-tile feed=feed update="update" destroyFeed="destroyFeed"}}
   {{/each}}
 </ul>
