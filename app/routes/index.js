@@ -2,7 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.findAll('feed');
+      return Ember.RSVP.hash({
+      feeds: this.store.findAll('feed'),
+      responses: this.store.findAll('response')
+    });
   },
 
   actions: {

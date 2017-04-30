@@ -7,9 +7,17 @@
 </ol>
 <hr>
 <ul>
-  {{#each model as |feed|}}
+  {{#each model.feeds as |feed|}}
     {{feed-tile feed=feed update="update" destroyFeed="destroyFeed"}}
   {{/each}}
   <nav id="bottomNavBar" class="navbar navbar-inverse">
   </nav>
+</ul>
+
+
+<p>TEST RESPONSES</p>
+<ul>
+  {{#each model.responses as |response|}}
+    <li>{{response.responder}} - {{response.responseTitle}} - by {{response.content}}</li>
+  {{/each}}
 </ul>
