@@ -7,5 +7,6 @@ export default DS.Model.extend({
   subject: DS.attr(),
   url: DS.attr(),
   poster: DS.attr(),
-  content: DS.attr()
+  content: DS.attr(),
+  responses: DS.hasMany('response', { async: true })
 });

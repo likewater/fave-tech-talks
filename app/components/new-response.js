@@ -10,7 +10,8 @@ export default Ember.Component.extend({
      var params = {
        responder: this.get('responder'),
        responseTitle: this.get('responseTitle'),
-       content: this.get('content')
+       content: this.get('content'),
+       feed: this.get('feed')
      };
      this.set('addNewResponse', false);
      this.sendAction('saveResponse', params);

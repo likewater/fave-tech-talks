@@ -14,12 +14,12 @@ export default Ember.Route.extend({
       var newFeed = this.store.createRecord('feed', params);
       newFeed.save();
       this.transitionTo('index');
-    },
-    saveResponse(params) {
-      var newResponse = this.store.createRecord('response', params);
-      newResponse.save();
-      this.transitionTo('index');
     }
+    // saveResponse(params) {
+    //   var newResponse = this.store.createRecord('response', params);
+    //   newResponse.save();
+    //   this.transitionTo('index');
+    // }
   }
   //
   //   update(feed, params) {
