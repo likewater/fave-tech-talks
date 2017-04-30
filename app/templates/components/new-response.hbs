@@ -1,1 +1,22 @@
-{{yield}}
+{{#if addNewResponse}}
+<h1>Add A Comment</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="responder">Your Name</label>
+        {{input value=responder id="responder"}}
+      </div>
+      <div class="form-group">
+        <label for="responseTitle">Title Your Comment</label>
+        {{input value=responseTitle id="responseTitle"}}
+      </div>
+      <div class="form-group">
+        <label for="content">Comment</label>
+        {{input value=content id="content"}}
+      </div>
+      <button {{action 'saveResponse'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'responseFormShow'}}>Leave A Comment</button>
+{{/if}}

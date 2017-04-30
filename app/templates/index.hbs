@@ -1,9 +1,9 @@
-<h2>Welcome to fave<span class="period">.</span>tech(<span class="period">talk</span>)! Here, you can post your favorite technical talks and view the favorite tech talks of other tech geeks like you! You are not alone...</h2>
+<h2>Welcome to fave<span class="period">.</span>tech(<span class="period">talk</span>) where you can post your favorite technical talks and view the favorite tech talks of other tech geeks like you! You are not alone...</h2>
 <hr>
 <ol>
   <li>All talks are listed below. Just click to watch.</li>
   <li>Click on the titles to see a detail page where you can leave a comment and read the comments of others. You can watch the video there too.</li>
-  <li>Post a new talk by clicking on the "New Talk" button.<span id="newTalkButton">{{new-feed saveFeed="saveFeed"}}</span></li>
+  <li>Post a new talk by clicking on the "New Talk" button.</li><span id="newTalkButton">{{new-feed saveFeed="saveFeed"}}</span>
 </ol>
 <hr>
 <ul>
@@ -21,3 +21,4 @@
     <li>{{response.responder}} - {{response.responseTitle}} - by {{response.content}}</li>
   {{/each}}
 </ul>
+{{new-response saveResponse="saveResponse"}}
