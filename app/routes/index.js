@@ -5,13 +5,14 @@ export default Ember.Route.extend({
     return this.store.findAll('feed');
   },
 
-  // actions: {
-  //
-  //   saveFeed(params) {
-  //     var newFeed = this.store.createRecord('feed', params);
-  //     newFeed.save();
-  //     this.transitionTo('index');
-  //   },
+  actions: {
+
+    saveFeed(params) {
+      var newFeed = this.store.createRecord('feed', params);
+      newFeed.save();
+      this.transitionTo('index');
+    }
+  }
   //
   //   update(feed, params) {
   //     Object.keys(params).forEach(function(key) {

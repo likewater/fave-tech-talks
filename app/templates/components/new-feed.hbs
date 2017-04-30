@@ -1,33 +1,35 @@
 {{#if addNewFeed}}
-<h1>New Feed</h1>
+<h1>Add A New Talk</h1>
 <div>
   <form>
     <div class="form-group">
-      <label for="title">Title</label>
+      <label for="title">Talk Title</label><br>
       {{input value=title id="title"}}
     </div>
     <div class="form-group">
-      <label for="author">Author</label>
+      <label for="author">Talk Author</label><br>
       {{input value=author id="author"}}
     </div>
     <div class="form-group">
-      <label for="subject">Subject</label>
+      <label for="subject">Subject</label><br>
       {{input value=subject id="subject"}}
     </div>
     <div class="form-group">
-      <label for="url">Talk Media URL</label>
+      <label for="url">Embedded Media URL<br>
+        Example: https://www.youtube.com/embed/a1zDuOPkMSw</label><br>
       {{input value=url id="url"}}
     </div>
     <div class="form-group">
-      <label for="imageUrl">Image URL</label>
+      <label for="imageUrl">Image URL: Optional<br>
+      If no URL supplied type in "NONE"</label><br>
       {{input value=imageUrl id="imageUrl"}}
     </div>
     <div class="form-group">
-      <label for="poster">Your Name</label>
+      <label for="poster">Your Name</label><br>
       {{input value=poster id="poster"}}
     </div>
     <div class="form-group">
-      <label for="content">Text</label>
+      <label for="content">Talk Description</label><br>
       {{input value=content id="content"}}
     </div>
     <button {{action 'saveFeed'}}>Save Talk</button>

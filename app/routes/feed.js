@@ -6,11 +6,11 @@ export default Ember.Route.extend({
   },
   actions: {
 
-    saveFeed(params) {
-      var newFeed = this.store.createRecord('feed', params);
-      newFeed.save();
-      this.transitionTo('index');
-    },
+    // saveFeed(params) {
+    //   var newFeed = this.store.createRecord('feed', params);
+    //   newFeed.save();
+    //   this.transitionTo('index');
+    // },
 
     update(feed, params) {
       Object.keys(params).forEach(function(key) {

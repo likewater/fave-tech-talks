@@ -7,7 +7,6 @@ body{
   font-size: 20px;
   font-family: "HelveticaNeue-Light",
   "Helvetica Neue Light","Helvetica Neue","Helvetica","Arial","Lucida Grande",sans-serif;
-  background: silver;
   height: 100%;
   padding: 0px;
   background-color: #FDF3E7;
@@ -26,15 +25,33 @@ body{
   padding: 0px;
 }
 
-h2{
+h2, h1{
   color: #C63D0F;
 }
 
-p b {
+p b{
   color: #36454F;
 }
 
-#feedList {
+.period{
+  color: #7E8F7C;
+}
+
+#newTalkButton{
+  font-size: 14px;
+  color: #3B3738;
+  height: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+button{
+  background-color: #7E8F7C;
+  border-radius: 12px;
+}
+
+#feedList{
   list-style-type: none;
 }
 
@@ -72,19 +89,19 @@ hr{
    padding: 0;
 }
 
-a {
+a{
     color: #C63D0F;
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     color: #7E8F7C;
 }
 
-a:active {
+a:active{
     color: #7E8F7C;
 }
 
-a:visited {
+a:visited{
     color: #7E8F7C;
 }

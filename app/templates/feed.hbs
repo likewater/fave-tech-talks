@@ -1,3 +1,5 @@
-<h2>More information about {{feed.poster}}'s post:  {{feed.title}}</h2>
-{{update-feed feed=model update="update"}}
+<br>
+<p>Edit this talk by clicking on the "Edit Talk" button
+<span id="newTalkButton">{{update-feed feed=model update="update"}}</span></p>
+<hr>
 {{feed-detail feed=model destroyFeed="destroyFeed"}}
