@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('about');
   this.route('detail');
+  this.route('feed', {path: '/feed/:feed_id'});
 });
 
 export default Router;
