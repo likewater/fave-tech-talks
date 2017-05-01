@@ -1,5 +1,7 @@
 ![fave.tech(talk) logo](public/assets/images/fave-tech-talk-logo-two.png)
 
+# Introduction
+
 ## Okay, so you like videos and feel a little guilty when you discover you've wasted three hours on YouTube watching 80's hair bands...
 
 ## What if that time gazing at videos wasn't wasted? What if there were an unlimited amount of videos in one place, about one thing... the thing you love!
@@ -22,7 +24,7 @@ Things that need to be addressed and polished are below:
 * Security for users and the back-end.
 * How to incorporate social media apart from the social media options already provided by the videos.
 
-#Prerequisites
+# Prerequisites
 
 You will need the following things properly installed on your computer.
 
