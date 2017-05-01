@@ -1,3 +1,5 @@
+![fave.tech(talk) logo](src="/assets/images/fave-tech-talk-logo-two.png")
+
 # fave-tech-talk
 
 This README outlines the details of collaborating on this Ember application: fave.tech(talk)
