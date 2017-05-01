@@ -1,25 +1,28 @@
 ![fave.tech(talk) logo](public/assets/images/fave-tech-talk-logo-two.png)
 
-# This README outlines the details of collaborating on this Ember application: fave.tech(talk)
+## Okay, so you like videos and feel a little guilty when you discover you've wasted three hours on YouTube watching 80's hair bands...
 
-## Original Idea
+## What if that time gazing at videos wasn't wasted? What if there were an unlimited amount of videos in one place, about one thing... the thing you love!
 
-Goal: Create a site where users can post their favorite tech talks, speeches, demos to generate healthy discussion regarding the topic presented.
+## No! Not that! I'm talking about a ton of tech videos for tech geeks like us. It's not wasted time if you're learning something.
 
-## Next Steps
+## So get ready to post your favorite tech videos, watch other tech videos posted by other tech video nerds, and together we can satisfy our video cravings and get a little smarter.
 
-As of April 30, 2017 the application is in an acceptable state for presentation as an MVP. The application shown would be an admin interface with full CRUD functionality.
+# Synopsis
 
-Things that need to be addressed are below:
+As of April 30, 2017 the application is in an acceptable state for presentation as an MVP.
 
-* More styling, especially the buttons.
-* Paths: after submitting a comment, the feed/feed_id page does not get refreshed automatically. I need to refresh the page without leaving it. Needs work.
+The application, in this state, would be an admin interface with full CRUD functionality.
+
+Things that need to be addressed and polished are below:
+
+* Tighter styling.
 * Experiment with a different font-family.
-* Need user testing.
-* Need to start thinking about security for users.
+* User testing.
+* Security for users and the back-end.
 * How to incorporate social media apart from the social media options already provided by the videos.
 
-## Prerequisites
+#Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -57,7 +60,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-The app is still in development. We are using Firebase as our DB. We would need to find hosting and a dedicated and secure DB before deploying.
+The app is still in development. We are using Firebase as our DB. We would need to find hosting and a dedicated and secure server environment before deploying.
 
 ## Further Reading / Useful Links
 
