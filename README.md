@@ -1,8 +1,6 @@
 ![fave.tech(talk) logo](public/assets/images/fave-tech-talk-logo-two.png)
 
-# fave-tech-talk
-
-This README outlines the details of collaborating on this Ember application: fave.tech(talk)
+# This README outlines the details of collaborating on this Ember application: fave.tech(talk)
 
 ## Original Idea
 
@@ -15,8 +13,11 @@ As of April 30, 2017 the application is in an acceptable state for presentation 
 Things that need to be addressed are below:
 
 * More styling, especially the buttons.
-* Paths: after submitting a comment, the feed/feed_id page does not get refreshed automatically. I need to refresh the page without leaving it.
+* Paths: after submitting a comment, the feed/feed_id page does not get refreshed automatically. I need to refresh the page without leaving it. Needs work.
 * Experiment with a different font-family.
+* Need user testing.
+* Need to start thinking about security for users.
+* How to incorporate social media apart from the social media options already provided by the videos.
 
 ## Prerequisites
 
