@@ -2,21 +2,19 @@
 
 This README outlines the details of collaborating on this Ember application: fave.tech(talk)
 
-## Planning
+## Original Idea
 
-Goal: Create a site where users can post their favorite tech talks, speeches, demos, and lectures to generate healthy discussion regarding the topic.
+Goal: Create a site where users can post their favorite tech talks, speeches, demos to generate healthy discussion regarding the topic presented.
 
-1. Specs
-  * upon click, show detail of view.
-  * upon click, open edit field, edit and save
-  * upon click, destroy (are you sure?)
-  * upon click, open up add field, add new post, save
+## Next Steps
 
-2. Integration
-  * Initial routes or index page mapped out
-  * Templates and their components created sequentially
-  * Follow the data, not the structure when building
-  *
+As of April 30, 2017 the application is in an acceptable state for presentation as an MVP. The application shown would be an admin interface with full CRUD functionality.
+
+Things that need to be addressed are below:
+
+* More styling, especially the buttons.
+* Paths: after submitting a comment, the feed/feed_id page does not get refreshed automatically. I need to refresh the page without leaving it.
+* Experiment with a different font-family.
 
 ## Prerequisites
 
@@ -56,7 +54,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+The app is still in development. We are using Firebase as our DB. We would need to find hosting and a dedicated and secure DB before deploying.
 
 ## Further Reading / Useful Links
 
