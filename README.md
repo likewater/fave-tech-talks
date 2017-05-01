@@ -1,4 +1,4 @@
-![fave.tech(talk) logo](src="/assets/images/fave-tech-talk-logo-two.png")
+![fave.tech(talk) logo](public/assets/images/fave-tech-talk-logo-two.png)
 
 # fave-tech-talk
 
