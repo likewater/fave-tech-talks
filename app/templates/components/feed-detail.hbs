@@ -12,6 +12,6 @@
 <h2>Comments</h2>
 <ul>
   {{#each feed.responses as |response|}}
-    {{response-tile response=response}}
+    {{response-tile response=response destroyResponse="destroyResponse"}}
   {{/each}}
 </ul>

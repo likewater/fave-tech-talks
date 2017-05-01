@@ -6,6 +6,9 @@ export default Ember.Component.extend({
       if (confirm('Are you sure you want to delete this feed?')) {
         this.sendAction('destroyFeed', feed);
       }
+    },
+    destroyResponse(response) {
+      this.sendAction('destroyResponse', response);
     }
   }
 });

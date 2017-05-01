@@ -33,7 +33,22 @@ export default Ember.Route.extend({
     },
 
     destroyFeed(feed) {
-      feed.destroyRecord();
+      var response_deletions = feed.get('responses').map(function(response) {
+        return response.destroyRecord();
+      });
+      Ember.RSVP.all(response_deletions).then(function() {
+        return feed.destroyRecord();
+      });
+      this.transitionTo('index');
+    },
+
+    // destroyFeed(feed) {
+    //   feed.destroyRecord();
+    //   this.transitionTo('index');
+    // },
+
+    destroyResponse(response) {
+      response.destroyRecord();
       this.transitionTo('index');
     }
   }
