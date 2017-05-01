@@ -1,17 +1,17 @@
-<h2><b>{{feed.title}}</b></h2>
-<iframe width="660" height="400" src="{{feed.url}}" frameborder="0" allowfullscreen></iframe>
+<h2><b>{{feed.title}}</b>
+</h2>
+<div class=videoWrapper>
+  <iframe width="660" height="400" src="{{feed.url}}" frameborder="0" allowfullscreen></iframe>
+</div>
 <p><b>Original Content Author:</b> {{feed.author}}</p>
 <p><b>Posted by:</b> {{feed.poster}}</p>
 <p><b>Talk Description:</b> {{feed.content}}</p>
 <p><b>Subject:</b> {{feed.subject}}</p>
-<!-- {{update-feed feed=feed update="update"}} -->
 <span id="newTalkButton"><button{{action 'delete' feed}}>Delete Talk</button></span>
 <hr>
-
-
 <h2>Comments</h2>
-<ul>
+<ol>
   {{#each feed.responses as |response|}}
     {{response-tile response=response destroyResponse="destroyResponse"}}
   {{/each}}
-</ul>
+</ol>

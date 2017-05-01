@@ -46,6 +46,24 @@ p b{
   margin-left: 0px;
 }
 
+#editTalkButton{
+  font-size: 14px;
+  color: #3B3738;
+  height: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+#saveCommentButton{
+  font-size: 14px;
+  color: #3B3738;
+  height: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
 button{
   background-color: #FDF3E7;
   border-radius: 12px;
@@ -54,6 +72,14 @@ button{
 .well{
   color: #3B3738;
   background-color: #C63D0F;
+}
+
+#aboutWell{
+  background-color: #FFFFFF;
+}
+
+#editWellP{
+  color: #FDF3E7;
 }
 
 #feedList{
@@ -107,6 +133,10 @@ hr{
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#addNew{
+  color: #FDF3E7;
 }
 
 a{

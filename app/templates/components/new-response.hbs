@@ -1,22 +1,24 @@
-{{#if addNewResponse}}
-<h1>Add A Comment</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="responder">Your Name</label>
-        {{input value=responder id="responder"}}
-      </div>
-      <div class="form-group">
-        <label for="responseTitle">Title Your Comment</label>
-        {{input value=responseTitle id="responseTitle"}}
-      </div>
-      <div class="form-group">
-        <label for="content">Comment</label>
-        {{input value=content id="content"}}
-      </div>
-      <button {{action 'saveResponse'}}>Save</button>
-    </form>
-  </div>
-{{else}}
-  <button {{action 'responseFormShow'}}>Leave A Comment</button>
-{{/if}}
+<div class="well">
+  {{#if addNewResponse}}
+  <h1 id="addNew">Add A Comment</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="responder">Your Name</label><br>
+          {{input value=responder id="responder"}}
+        </div>
+        <div class="form-group">
+          <label for="responseTitle">Title Your Comment</label><br>
+          {{input value=responseTitle id="responseTitle"}}
+        </div>
+        <div class="form-group">
+          <label for="content">Comment</label><br>
+          {{input value=content id="content"}}
+        </div>
+        <span id="saveCommentButton"><button{{action 'saveResponse'}}>Save</button></span>
+      </form>
+    </div>
+  {{else}}
+    <span id="saveCommentButton"><button{{action 'responseFormShow'}}>Add A  Comment</button></span>
+  {{/if}}
+</div>

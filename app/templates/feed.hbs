@@ -1,9 +1,9 @@
 <br>
-<p>Edit this talk by clicking on the "Edit Talk" button
-<span id="newTalkButton">{{update-feed feed=model update="update"}}</span></p>
+<div class="well">
+<p id="editWellP">Edit this talk by clicking on the "Edit Talk" button
+  <span id="editTalkButton">{{update-feed feed=model update="update"}}</span>
+</p>
+</div>
 <hr>
 {{feed-detail feed=model destroyFeed="destroyFeed" destroyResponse="destroyResponse"}}
-
-
-
 {{new-response saveResponse="saveResponse" feed=model}}
